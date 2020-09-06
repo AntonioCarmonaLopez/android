@@ -34,9 +34,9 @@ public class AppDatabase {
                 if (db == null) {
                     db = new AppDatabase();
 
-//                    String name = "NH0wtZDe2c";
-//                    String user = "NH0wtZDe2c";
-//                    String password = "4cTesqlYKb";
+//                    String name = "";
+//                    String user = "";
+//                    String password = "";
 //                    String url = "jdbc:mysql://remotemysql:3306/" + name;
 
                     SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(context);
