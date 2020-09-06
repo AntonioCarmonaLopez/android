@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">T03p03</string>
+    <string name="alta">Alta</string>
+    <string name="baja">Baja</string>
+    <string name="salir">Salir</string>
+    <string name="nombre">Nombre</string>
+    <string name="dni">DNI</string>
+    <string name="nacimiento">Fecha de Nacimiento</string>
+    <string name="ciclo">Ciclo</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="title_activity_alta_alumno">Alta Alumno</string>
+    <string name="choice">...</string>
+    <string name="confSalir">¿Estas seguro que deseas salir?</string>
+    <string name="title_activity_baja_alumno">Baja Alumno</string>
+    <string name="obligatorios">Faltan datos obligatorios</string>
+    <string name="confBorrar">¿Confimar Baja Alumno?</string>
+    <string name="confCancelar">¿Deseas cancelar la operación?</string>
+    <string name="altaOK">Alta correcta</string>
+    <string name="altaKO">Alta incorrecta</string>
+    <string name="operacionKO">Operación Cancelada</string>
+    <string name="noChoice">Ninguna Selección</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="alumnos">Alumnos</string>
+    <string name="editar">Editar</string>
+    <string name="editar_ok">Edición ok</string>
+    <string name="editar_ko">Edición ko</string>
+    <string name="foto_ok">Fotografía capturada</string>
+    <string name="tomar_foto">Tomar fotografía</string>
+    <string-array name="ciclos">
+        <item></item>
+        <item>CFGM SMR</item>
+        <item>CFGS DAM</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">T02p04</string>
+    <string name="num1">Numero 1</string>
+    <string name="num2">Numero 2</string>
+    <string name="sum">+</string>
+    <string name="resta">-</string>
+    <string name="multi">*</string>
+    <string name="div">/</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="obligatorios">Faltan campos Obligatorios</string>
+    <string name="aceptado">Operación aceptada</string>
+    <string name="cancel">Operación cancelada</string>
+    <string name="volver">Volver</string>
+    <string name="resultado">Resultado</string>
+</resources>

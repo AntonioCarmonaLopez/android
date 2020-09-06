@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">T02p01</string>
+    <string name="tv_Principal">Hola Mundo!!</string>
+    <string name="bt_1">Botón1</string>
+    <string name="bt_2">Botón2</string>
+    <string name="bt_3">Botón3</string>
+    <string name="bt_4">Botón4</string>
+    <string name="msg_bt1">Mensaje Botón 1</string>
+    <string name="msg_bt2">Mensaje Botón 2</string>
+    <string name="msg_bt3">Mensaje Botón 3</string>
+    <string name="msg_bt4">Mensaje Botón 4</string>
+    <string name="msg_onCreate">Método OnCreate</string><string name="msg_onStart">Método OnStart</string>
+    <string name="msg_onResume">Método OnResume</string>
+    <string name="msg_onPause">Método OnPause</string>
+    <string name="msg_onStop">Método OnStop</string>
+    <string name="msg_onDestroy">Método OnDestroy</string>
+    <string name="msg_onRestart">Método OnRestart</string>
+</resources>

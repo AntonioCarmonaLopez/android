@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">T02p03</string>
+    <string name="titulo">Ficha de Alumno</string>
+    <string name="dni">DNI</string>
+    <string name="nombre">Nombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="hombre">Hombre</string>
+    <string name="mayor">Mayor de Edad</string>
+    <string name="menor">Menor de Edad</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="obligatorios">Datos Requeridos</string>
+    <string name="dniObligatorio">DNI Obligatorio</string>
+    <string name="nombreObligatorio">Nombre Obligatorio</string>
+</resources>
+

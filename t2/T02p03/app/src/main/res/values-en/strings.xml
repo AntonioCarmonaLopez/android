@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">T02p03</string>
+    <string name="titulo">Student Sheet</string>
+    <string name="dni">DNI</string>
+    <string name="nombre">Name</string>
+    <string name="mujer">Female</string>
+    <string name="hombre">Male</string>
+    <string name="mayor">Overage</string>
+    <string name="menor">Underage</string>
+    <string name="aceptar">Accept</string>
+    <string name="cancelar">Cancel</string>
+    <string name="obligatorios">Required data</string>
+    <string name="dniObligatorio">Dni is Required</string>
+    <string name="nombreObligatorio">Name is Required</string>
+</resources>

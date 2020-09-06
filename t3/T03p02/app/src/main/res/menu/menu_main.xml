@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dam.t03p02.MainActivity">
+    <item
+        android:id="@+id/mnAlumnos"
+        android:orderInCategory="10"
+        android:title="@string/alumnos"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/mnAlta"
+                android:icon="@mipmap/ic_plus_round"
+                android:orderInCategory="10"
+                android:title="@string/alta"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/mnBaja"
+                android:icon="@mipmap/ic_minus"
+                android:orderInCategory="20"
+                android:title="@string/baja"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/mnSalir"
+        android:icon="@drawable/ic_power"
+        android:orderInCategory="30"
+        android:title="@string/salir"
+        app:showAsAction="ifRoom" />
+</menu>

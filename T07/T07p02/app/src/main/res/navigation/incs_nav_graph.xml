@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menuIncs_nav_graph"
+    app:startDestination="@+id/busIncsFragment">
+    <fragment
+        android:id="@+id/busIncsFragment"
+        android:name="com.dam.t07p02.vista.fragmentos.BusIncsFragment"
+        android:label="fragment_bus_Incs"
+        tools:layout="@layout/fragment_bus_incs">
+        <action
+            android:id="@+id/action_busIncsFragment_to_mtoIncsFragment"
+            app:destination="@id/mtoIncsFragment" />
+        <action
+            android:id="@+id/action_busIncsFragment_to_filtroFragment"
+            app:destination="@id/filtroFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mtoIncsFragment"
+        android:name="com.dam.t07p02.vista.fragmentos.MtoIncsFragment"
+        android:label="fragment_mto_Incs"
+        tools:layout="@layout/fragment_mto_incs" />
+    <dialog
+        android:id="@+id/dlgConfirmacionIncs"
+        android:name="com.dam.t07p02.vista.dialogos.DlgConfirmacion"
+        android:label="DlgConfirmacion" />
+    <action
+        android:id="@+id/action_global_dlgConfirmacionIncs"
+        app:destination="@id/dlgConfirmacionIncs" />
+    <fragment
+        android:id="@+id/filtroFragment"
+        android:name="com.dam.t07p02.vista.fragmentos.FiltroFragment"
+        android:label="fragment_filtro_incs"
+        tools:layout="@layout/fragment_filtro_incs" >
+        <action
+            android:id="@+id/action_filtroFragment_to_busIncsFragment"
+            app:destination="@id/busIncsFragment"
+            app:popUpTo="@id/busIncsFragment" />
+    </fragment>
+</navigation>

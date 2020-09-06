@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbars="vertical">
+
+    <PreferenceCategory app:title="@string/category_Almacenamiento">
+        <EditTextPreference
+            app:defaultValue="@string/MySQL_url_default"
+            app:isPreferenceVisible="false"
+            app:key="@string/MySQL_url_key"
+            app:summary="@string/MySQL_url_summary"
+            app:title="@string/MySQL_url_title" />
+        <EditTextPreference
+            app:defaultValue="@string/MySQL_name_default"
+            app:isPreferenceVisible="false"
+            app:key="@string/MySQL_name_key"
+            app:summary="@string/MySQL_name_summary"
+            app:title="@string/MySQL_name_title" />
+        <EditTextPreference
+            app:defaultValue="@string/MySQL_user_default"
+            app:key="@string/MySQL_user_key"
+            app:summary="@string/MySQL_user_summary"
+            app:title="@string/MySQL_user_title" />
+        <EditTextPreference
+            app:defaultValue="@string/MySQL_password_default"
+            app:key="@string/MySQL_password_key"
+            app:summary="@string/MySQL_password_summary"
+            app:title="@string/MySQL_password_title" />
+        <EditTextPreference
+            app:defaultValue="@string/MySQL_timeout_default"
+            app:key="@string/MySQL_timeout_key"
+            app:summary="@string/MySQL_timeout_summary"
+            app:title="@string/MySQL_timeout_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/category_Interfaz">
+        <SwitchPreferenceCompat
+            app:defaultValue="@string/login_default"
+            app:key="@string/login_key"
+            app:summary="@string/login_summary"
+            app:title="@string/login_title" />
+        <SwitchPreferenceCompat
+            app:defaultValue="@string/splashApp_default"
+            app:key="@string/splashApp_key"
+            app:summary="@string/splashApp_summary"
+            app:title="@string/splashApp_title" />
+        <SwitchPreferenceCompat
+            app:defaultValue="@string/bNav_default"
+            app:key="@string/bNav_key"
+            app:summary="@string/bNav_summary"
+            app:title="@string/bNav_title" />
+    </PreferenceCategory>
+</androidx.preference.PreferenceScreen>
