@@ -1,1 +1,1 @@
-#conectividad y sensores
+#conectividad, sensores y seguridad
