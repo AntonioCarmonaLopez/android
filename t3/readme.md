@@ -1,1 +1,1 @@
-actividades, adaptadores, menus y dialogos 
+#actividades, adaptadores, menus y dialogos 
